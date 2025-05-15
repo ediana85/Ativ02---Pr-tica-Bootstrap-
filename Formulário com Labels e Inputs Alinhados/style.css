@@ -1,0 +1,59 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 40px;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cada linha do formulário com grid */
+.form-group {
+  display: grid;
+  grid-template-columns: 120px 1fr; /* Label à direita, input à esquerda */
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+label {
+  text-align: right;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #da871a;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #c2780a;
+  color: rgb(235, 231, 228);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a3a083;
+}
