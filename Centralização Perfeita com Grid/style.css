@@ -1,0 +1,23 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container usando Grid e ocupando toda a viewport */
+.grid-container {
+  display: grid;
+  place-items: center; /* Centraliza horizontal e verticalmente */
+  height: 100vh;
+  width: 100vw;
+  background-color: #eee489;
+}
+
+/* Caixa centralizada */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #e0ebbb;
+  border-radius: 8px;
+}
