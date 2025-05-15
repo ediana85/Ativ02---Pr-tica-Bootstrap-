@@ -1,0 +1,48 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cartão de perfil */
+.card-profile {
+  width: 300px;
+  background-color: #fef6e4; /* cor pastel suave */
+  border: 1px solid #f3d2c1;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  align-items: center;
+}
+
+/* Avatar com imagem */
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #fcd5ce;
+  flex-shrink: 0;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Nome do usuário */
+.name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #6c584c;
+  margin-bottom: 5px;
+}
+
+/* Biografia */
+.bio {
+  font-size: 0.95rem;
+  color: #7f5539;
+  line-height: 1.4;
+}
