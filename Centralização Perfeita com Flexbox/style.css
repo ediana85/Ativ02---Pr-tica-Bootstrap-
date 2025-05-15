@@ -1,0 +1,24 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container pai ocupa toda a viewport e usa Flexbox */
+.container {
+  display: flex;
+  align-items: center;         /* Alinha verticalmente */
+  justify-content: center;     /* Alinha horizontalmente */
+  height: 100vh;
+  width: 100vw;
+  background-color: #e9f7ae;
+}
+
+/* Caixa centralizada */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #ffadad;
+  border-radius: 8px;
+}
