@@ -1,0 +1,18 @@
+/* Container da galeria */
+.gallery {
+  gap: 10px;                 /* Gutter entre as imagens */
+}
+
+/* Imagens dentro da galeria */
+.gallery img {
+  flex: 1 1 150px;           /* grow | shrink | basis */
+  max-width: 100%;           /* Não ultrapassa o tamanho da coluna flex */
+  height: auto;              /* Mantém a proporção */
+  object-fit: cover;         /* Preenche sem distorcer */
+  border-radius: .5rem;      /* Canto levemente arredondado */
+  transition: transform .2s; /* Animação suave no hover */
+}
+
+.gallery img:hover {
+  transform: scale(1.05);    /* Zoom sutil ao passar o mouse */
+}
