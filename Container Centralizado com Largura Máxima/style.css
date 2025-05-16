@@ -1,0 +1,22 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* Container centralizado */
+.central-container {
+  max-width: 960px;
+  margin: 0 auto;           /* Centraliza horizontalmente */
+  padding: 20px;            /* Espaçamento interno */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
