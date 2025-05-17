@@ -1,0 +1,40 @@
+/* Layout geral */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #fefefe;
+}
+
+/* Container Flexbox */
+.container {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Blocos com tons pastel */
+.box {
+  width: 100px;
+  height: 100px;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+/* Tons pastel diferentes */
+.box-a { background-color: #ffd6d6; order: 3; } /* Rosa claro */
+.box-b { background-color: #d6f0ff; order: 1; } /* Azul claro */
+.box-c { background-color: #d6ffd9; order: 2; } /* Verde claro */
+
+/* Em telas menores, restaurar a ordem original */
+@media (max-width: 600px) {
+  .box-a { order: 1; }
+  .box-b { order: 2; }
+  .box-c { order: 3; }
+}
