@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Box Model com box-sizing</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <main class="container">
+    <h1>Exemplo de Box Model</h1>
+    <div class="box-container">
+      <div class="box content-box">
+        <strong>Content-box (Padrão)</strong><br>
+        A largura total ultrapassa 150px por causa do padding e da borda.
+      </div>
+      <div class="box border-box">
+        <strong>Border-box</strong><br>
+        A largura total se mantém em 150px, incluindo padding e borda.
+      </div>
+    </div>
+  </main>
+</body>
+</html>
