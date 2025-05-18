@@ -1,25 +1,35 @@
-/* Estilo base */
 body {
   font-family: Arial, sans-serif;
-  background-color: #fef6f0; /* fundo pastel */
+  background-color: #fdf6f0;
   margin: 0;
   padding: 20px;
+  text-align: center;
 }
 
 .container {
   max-width: 800px;
   margin: auto;
-  text-align: center;
 }
 
-/* Botão principal */
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #666;
+  font-weight: normal;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+/* Botão customizado individual */
 .custom-button {
   display: inline-block;
-  background-color: #ffd6a5; /* tom pastel */
+  background-color: #ffd6a5;
   color: #333;
   text-decoration: none;
-  padding: 12px 24px;     /* Espaçamento interno */
-  margin: 20px 0;         /* Espaçamento externo */
+  padding: 12px 24px;
+  margin: 20px 0;
   border: 2px solid #ffb347;
   border-radius: 8px;
   transition: background-color 0.3s ease;
@@ -29,30 +39,32 @@ body {
   background-color: #ffb347;
 }
 
-/* Botões de comparação */
+/* Estilos para botões múltiplos */
+.btn-row {
+  margin-bottom: 40px;
+}
+
 .btn {
   display: inline-block;
-  background-color: #a0e7e5; /* tom pastel */
+  background-color: #a0e7e5;
   color: #333;
   text-decoration: none;
   border: 2px solid #72ccc9;
   border-radius: 6px;
   transition: transform 0.2s ease;
+  margin: 0 10px;
 }
 
-/* Pequeno espaçamento */
 .pequeno {
   padding: 4px 8px;
   margin: 5px;
 }
 
-/* Espaçamento médio */
 .medio {
   padding: 12px 20px;
   margin: 15px;
 }
 
-/* Grande espaçamento */
 .grande {
   padding: 20px 32px;
   margin: 30px;
