@@ -1,0 +1,64 @@
+/* Estilo base */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fef6f0; /* fundo pastel */
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Botão principal */
+.custom-button {
+  display: inline-block;
+  background-color: #ffd6a5; /* tom pastel */
+  color: #333;
+  text-decoration: none;
+  padding: 12px 24px;     /* Espaçamento interno */
+  margin: 20px 0;         /* Espaçamento externo */
+  border: 2px solid #ffb347;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #ffb347;
+}
+
+/* Botões de comparação */
+.btn {
+  display: inline-block;
+  background-color: #a0e7e5; /* tom pastel */
+  color: #333;
+  text-decoration: none;
+  border: 2px solid #72ccc9;
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+/* Pequeno espaçamento */
+.pequeno {
+  padding: 4px 8px;
+  margin: 5px;
+}
+
+/* Espaçamento médio */
+.medio {
+  padding: 12px 20px;
+  margin: 15px;
+}
+
+/* Grande espaçamento */
+.grande {
+  padding: 20px 32px;
+  margin: 30px;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #88dbd9;
+}
