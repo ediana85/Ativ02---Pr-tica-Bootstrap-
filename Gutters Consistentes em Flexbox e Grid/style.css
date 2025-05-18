@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff9f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+  margin-top: 40px;
+}
+
+/* Estilo comum às duas galerias */
+.gallery {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Itens com estilo pastel */
+.item {
+  background-color: #bde0fe;
+  border: 2px solid #90cdf4;
+  border-radius: 8px;
+  padding: 40px 0;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Flexbox com gap */
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.flexbox .item {
+  flex: 1 1 calc(33.333% - 10.67px); /* 3 colunas com gap compensado */
+  box-sizing: border-box;
+}
+
+/* Grid com gap */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+}
